@@ -1,7 +1,12 @@
 aid: family-dollar-stores
-url: https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.family-dollar-stores.com
+description: >-
+  Family Dollar is a chain of discount variety stores in the United States offering
+  a broad assortment of merchandise including consumables, home products, apparel,
+  and seasonal goods at low prices.
