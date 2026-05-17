@@ -24,9 +24,9 @@ common:
     url: https://www.familydollar.com/careers/
   - type: Mobile App
     url: https://www.familydollar.com/smart-coupons/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.familydollar.com/privacy-policy/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.familydollar.com/terms-of-use/
   - type: Contact
     url: https://www.familydollar.com/contact-us/
