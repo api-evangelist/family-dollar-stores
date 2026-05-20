@@ -14,6 +14,10 @@ tags:
   - Consumer Goods
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Family-Dollar
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/family-dollar
   - type: Website
     url: https://www.familydollar.com
   - type: Parent Company
