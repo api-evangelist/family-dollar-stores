@@ -12,6 +12,7 @@ tags:
   - Retail
   - Discount Stores
   - Consumer Goods
+  - Fortune 500
 apis: []
 common:
   - type: GitHubOrganization
