@@ -15,6 +15,8 @@ tags:
   - Fortune 500
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/family-dollar-stores-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Family-Dollar
   - type: LinkedIn
