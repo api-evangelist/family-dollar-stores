@@ -1,0 +1,55 @@
+# Family Dollar Stores
+
+> Family Dollar is a US discount variety store chain selling consumables, household goods,
+> apparel, seasonal merchandise and electronics in the $1–$10 price range, with stores
+> concentrated in neighborhood and food-desert locations. Dollar Tree, Inc. divested the
+> Family Dollar business on 7 July 2025 to Brigade Capital Management and Macellum Capital
+> Management; Family Dollar now operates as a standalone private retailer headquartered in
+> Chesapeake, Virginia.
+
+## API surface
+
+> Family Dollar publishes NO public API, developer portal, SDK, webhook catalog, MCP server
+> or agent card. This was measured on 2026-09-07, not assumed: `/openapi.json`,
+> `/swagger.json`, `/api-docs`, `/llms.txt` and the full RFC 8615 `/.well-known/` path list
+> were probed on www.familydollar.com, familydollar.com, corporate.familydollar.com and
+> careers.familydollar.com, and every one returned 404 (or a redirect out of the namespace).
+> The subdomains `api.familydollar.com` and `developer.familydollar.com` do not resolve.
+> The full static sitemaps of both the consumer site and the corporate site were read; no
+> developer-facing page exists on either.
+>
+> The storefront at www.familydollar.com runs on Oracle CX Commerce and its tenant REST
+> layer (`/ccstore/v1/`) answers anonymously, but that is Oracle's product contract running
+> under Family Dollar's hostname — it is undocumented by Family Dollar, carries no published
+> specification, terms of use, or support commitment, and is NOT catalogued here as a
+> Family Dollar API. Supplier integration runs through the SAP Ariba Network vendor portal,
+> a host platform Family Dollar buys rather than an interface it publishes.
+
+## Company
+
+- [Family Dollar](https://www.familydollar.com): Consumer storefront, weekly ads, Smart Coupons, store locator.
+- [Corporate site](https://corporate.familydollar.com): Standalone corporate site — leadership, history, pressroom, logistics.
+- [About Us](https://corporate.familydollar.com/about-us): What the chain sells and where it operates.
+- [Vendor Resources](https://corporate.familydollar.com/vendor-resources): Vendor standards manual (PDF parts 0–10 plus appendices) and the Ariba Network vendor portal reference.
+- [Store Locator](https://www.familydollar.com/locations/): Store finder.
+- [Family Dollar App](https://www.familydollar.com/family-dollar-app): Consumer mobile app and Smart Coupons.
+
+## Policies
+
+- [Terms of Use](https://www.familydollar.com/terms)
+- [Privacy Policy](https://www.familydollar.com/privacy-policy/)
+- [Accessibility Statement](https://www.familydollar.com/accessibility-statement)
+- [Product Recalls](https://www.familydollar.com/product-recalls)
+
+## Support
+
+- [FAQ](https://www.familydollar.com/faq-general)
+- [Contact Family Dollar](https://www.familydollar.com/contact-family-dollar)
+- [Careers](https://careers.familydollar.com/us/en)
+
+## About this file
+
+- generated: 2026-09-07
+- method: generated
+- source: apis.yml + this repository's probed artifacts (well-known/, security/, plans/, rate-limits/)
+- publisher: API Evangelist — this is an independent third-party profile, not a Family Dollar document.

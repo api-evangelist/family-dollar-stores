@@ -28,12 +28,15 @@ type: Index
 access: 3rd-Party
 position: Consuming
 created: '2024-12-25'
-modified: '2026-04-28'
+modified: '2026-09-07'
 specificationVersion: '0.23'
 tags:
   - Retail
   - Discount Stores
+  - Variety Stores
   - Consumer Goods
+  - E-Commerce
+  - United States
   - Fortune 500
 apis: []
 common:
@@ -45,8 +48,14 @@ common:
     url: https://www.linkedin.com/company/family-dollar
   - type: Website
     url: https://www.familydollar.com
-  - type: Parent Company
-    url: https://corporate.dollartree.com/
+  - type: About
+    url: https://corporate.familydollar.com/about-us
+  - type: Partners
+    url: https://corporate.familydollar.com/vendor-resources
+  - type: Newsroom
+    url: https://corporate.familydollar.com/about-us/pressroom
+  - type: InvestorRelations
+    url: https://corporate.familydollar.com/financial-reports
   - type: Store Locator
     url: https://www.familydollar.com/locations/
   - type: Careers
@@ -56,16 +65,54 @@ common:
   - type: PrivacyPolicy
     url: https://www.familydollar.com/privacy-policy/
   - type: TermsOfService
-    url: https://www.familydollar.com/terms-of-use/
+    url: https://www.familydollar.com/terms
   - type: Contact
-    url: https://www.familydollar.com/contact-us/
+    url: https://www.familydollar.com/contact-family-dollar
+  - type: Support
+    url: https://www.familydollar.com/faq-general
+  - type: LLMsTxt
+    url: llms/family-dollar-stores-llms.txt
 description: >-
-  Family Dollar is a chain of discount variety stores in the United States
-  offering a broad assortment of merchandise including consumables, home
-  products, apparel, and seasonal goods at low prices. Owned by Dollar Tree,
-  Inc., Family Dollar operates thousands of locations across the country and
-  serves millions of customers seeking value-oriented shopping. The company
-  does not currently publish public APIs or a developer portal.
+  Family Dollar is a chain of discount variety stores in the United States offering a broad
+  assortment of merchandise in the $1 to $10 range, including consumables, household and home
+  products, apparel, seasonal goods and electronics. Stores are concentrated in neighborhood
+  locations and in food deserts where other retailers do not operate. Dollar Tree, Inc.
+  divested the Family Dollar business on 7 July 2025 to Brigade Capital Management and
+  Macellum Capital Management; Family Dollar now operates as a standalone private retailer
+  headquartered in Chesapeake, Virginia, and also runs the Chesapeake Media Group retail media
+  network. Family Dollar publishes no public API, developer portal, SDK, webhook catalog or
+  agent surface: contract discovery on 2026-09-07 probed every well-known and specification
+  path across www.familydollar.com, corporate.familydollar.com and careers.familydollar.com
+  and returned no machine-readable contract of any kind.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Family Dollar runs a consumer storefront and mobile app but ships no developer surface at
+    all - api.familydollar.com and developer.familydollar.com do not resolve, the full static
+    sitemaps of both www.familydollar.com (118 pages) and the standalone corporate site (12
+    pages) contain no developer-facing page, and every /.well-known/ and specification path
+    returned 404; supplier integration is routed through the SAP Ariba Network vendor portal
+    that Family Dollar buys rather than an interface it publishes.
+  evidence:
+    - url: https://www.familydollar.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.familydollar.com/openapi.json
+      status: 404
+    - url: https://corporate.familydollar.com/.well-known/agent-card.json
+      status: 404
+    - url: https://www.familydollar.com/staticSitemap.xml
+      status: 200
+    - url: https://corporate.familydollar.com/vendor-resources
+      status: 200
+  checked: '2026-09-07'
+x-parent: dollar-tree
+x-relationship: acquisition

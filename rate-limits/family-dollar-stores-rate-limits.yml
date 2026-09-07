@@ -1,0 +1,16 @@
+generated: '2026-09-07'
+method: searched
+source: https://www.familydollar.com/staticSitemap.xml
+limit_count: 0
+rate_limits: []
+note: >-
+  No published rate limits, because there is no published API. No developer portal,
+  API reference, or terms document on either familydollar.com or
+  corporate.familydollar.com states a request quota, window, burst allowance, or any
+  RateLimit-* / X-RateLimit-* / Retry-After response header contract. limit_count 0 is a
+  measured absence.
+evidence:
+  - url: https://www.familydollar.com/terms
+    status: 200
+  - url: https://corporate.familydollar.com/sitemap.xml
+    status: 200

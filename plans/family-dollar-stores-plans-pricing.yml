@@ -1,0 +1,18 @@
+generated: '2026-09-07'
+method: searched
+source: https://corporate.familydollar.com/vendor-resources
+plan_count: 0
+plans: []
+note: >-
+  Family Dollar publishes no API product and therefore no API plans, tiers, quotas or
+  developer pricing. The searched surfaces were the consumer site (www.familydollar.com,
+  full static sitemap read — 118 pages, none developer-facing), the standalone corporate
+  site (corporate.familydollar.com, full sitemap — 12 pages), and the vendor page. Supplier
+  integration is routed through the SAP Ariba Network vendor portal (Part 10 of the vendor
+  standards PDF set), which is a host platform Family Dollar buys, not an API it sells.
+  plan_count 0 is a measured absence, not an unchecked field.
+evidence:
+  - url: https://corporate.familydollar.com/vendor-resources
+    status: 200
+  - url: https://www.familydollar.com/staticSitemap.xml
+    status: 200

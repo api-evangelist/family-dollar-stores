@@ -1,0 +1,88 @@
+generated: '2026-09-07'
+method: probed
+source: live HTTPS probes of the RFC 8615 well-known path list on every host in apis.yml
+note: No /.well-known/ document is served on any Family Dollar host. www.familydollar.com and corporate.familydollar.com
+  answer every path with an HTML 404 page; the apex familydollar.com 301s to www and careers.familydollar.com
+  303s into its vendor-hosted careers app. No WellKnown or SecurityTxt pointer is emitted in apis.yml
+  because nothing was served — this file records a measured absence, not a published surface.
+hosts:
+- host: www.familydollar.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+- host: familydollar.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301
+  - path: /.well-known/aauth-resource.json
+    status: 301
+- host: corporate.familydollar.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+- host: careers.familydollar.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 303
+  - path: /.well-known/openid-configuration
+    status: 303
+  - path: /.well-known/oauth-authorization-server
+    status: 303
+  - path: /.well-known/oauth-protected-resource
+    status: 303
+  - path: /.well-known/api-catalog
+    status: 303
+  - path: /.well-known/ai-plugin.json
+    status: 303
+  - path: /.well-known/agent-card.json
+    status: 303
+  - path: /.well-known/agent.json
+    status: 303
+  - path: /.well-known/aauth-resource.json
+    status: 303
