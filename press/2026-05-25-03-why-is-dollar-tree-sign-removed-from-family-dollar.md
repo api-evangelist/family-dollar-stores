@@ -1,7 +1,9 @@
 ---
 title: Why is Dollar Tree sign removed from Family Dollar?
 url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Family Dollar Stores" press release artificial intelligence'
 position: 3
 source: serpapi-google

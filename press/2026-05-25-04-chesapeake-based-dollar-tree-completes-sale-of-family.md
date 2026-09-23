@@ -1,7 +1,9 @@
 ---
 title: Chesapeake-based Dollar Tree completes sale of Family ...
 url: https://www.pilotonline.com/2025/07/07/dollar-tree-completes-family-dollar-sale/
-date: '2026-05-25'
+published: '2025-07-07'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Family Dollar Stores" press release artificial intelligence'
 position: 4
 source: serpapi-google
