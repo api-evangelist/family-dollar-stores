@@ -40,6 +40,10 @@ tags:
   - Fortune 500
 apis: []
 common:
+  - type: Plans
+    url: plans/family-dollar-stores-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/family-dollar-stores-rate-limits.yml
   - type: DomainSecurity
     url: security/family-dollar-stores-domain-security.yml
   - type: GitHubOrganization
