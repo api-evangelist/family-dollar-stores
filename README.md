@@ -1,4 +1,4 @@
-# Family Dollar Stores (family-dollar-stores)
+# Family Dollar Stores
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,42 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Family Dollar is a chain of discount variety stores in the United States offering a broad assortment of merchandise including consumables, home products, apparel, and seasonal goods at low prices. Owned by Dollar Tree, Inc., Family Dollar operates thousands of locations across the country and serves millions of customers seeking value-oriented shopping. The company does not currently publish public APIs or a developer portal.
+Family Dollar is a chain of discount variety stores in the United States offering a broad assortment of merchandise in the $1 to $10 range, including consumables, household and home products, apparel, seasonal goods and electronics. Stores are concentrated in neighborhood locations and in food deserts where other retailers do not operate. Dollar Tree, Inc. divested the Family Dollar business on 7 July 2025 to Brigade Capital Management and Macellum Capital Management; Family Dollar now operates as a standalone private retailer headquartered in Chesapeake, Virginia, and also runs the Chesapeake Media Group retail media network. Family Dollar publishes no public API, developer portal, SDK, webhook catalog or agent surface: contract discovery on 2026-09-07 probed every well-known and specification path across www.familydollar.com, corporate.familydollar.com and careers.familydollar.com and returned no machine-readable contract of any kind.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/family-dollar-stores/refs/heads/main/apis.yml)
+**Areas:** Retail · Discount Stores · Variety Stores · Consumer Goods · E-Commerce · United States · Fortune 500
 
-## Scope
+## Family Dollar Stores on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Family Dollar Stores is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/family-dollar-stores/](https://apis.io/providers/family-dollar-stores/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
- - Retail, Discount Stores, Consumer Goods
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2024-12-25
-- **Modified:** 2026-04-28
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Family Dollar Stores Domain Security](https://apis.io/security/family-dollar-stores/family-dollar-stores-domain-security/)
 
-No public APIs are currently published by Family Dollar Stores.
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
+
+- [Family Dollar Stores Plans Pricing](https://apis.io/plans/family-dollar-stores/family-dollar-stores-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Family Dollar Stores Rate Limits](https://apis.io/rate-limits/family-dollar-stores/family-dollar-stores-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.familydollar.com)
-- [Parent Company](https://corporate.dollartree.com/)
-- [Store Locator](https://www.familydollar.com/locations/)
-- [Careers](https://www.familydollar.com/careers/)
-- [Mobile App](https://www.familydollar.com/smart-coupons/)
-- [Privacy Policy](https://www.familydollar.com/privacy-policy/)
-- [Terms of Service](https://www.familydollar.com/terms-of-use/)
-- [Contact](https://www.familydollar.com/contact-us/)
+- [Support](https://www.familydollar.com/faq-general)
+- [Terms of service](https://www.familydollar.com/terms)
+- [Privacy policy](https://www.familydollar.com/privacy-policy/)
+- [GitHub](https://github.com/Family-Dollar)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 10.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/family-dollar-stores/](https://apis.io/providers/family-dollar-stores/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Family Dollar Stores: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/family-dollar-stores/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
